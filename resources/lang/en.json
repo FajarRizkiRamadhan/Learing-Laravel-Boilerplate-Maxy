@@ -107,7 +107,7 @@
 
   "views.admin.purchase.order.lines.index.title": "Purchase Order Line",
   "views.backend.section.navigation.menu_4_2":"Purchase Order Line",
-  "views.admin.purchase.order.lines.index.table_header_0":"Product_id",
+  "views.admin.purchase.order.lines.index.table_header_0":"Product",
   "views.admin.purchase.order.lines.index.table_header_1":"qty",
   "views.admin.purchase.order.lines.index.table_header_2":"Price",
   "views.admin.purchase.order.lines.index.table_header_3":"Discount",
@@ -116,6 +116,7 @@
   "views.admin.purchase.order.lines.index.table_header_6":"Update_at",
 
   "views.admin.purchase.order.lines.edit.title":"Create",
+  "views.admin.purchase.order.lines.create.product":"Product",
   "views.admin.purchase.order.lines.create.qty":"Quantity",
   "views.admin.purchase.order.lines.create.price":"Price",
   "views.admin.purchase.order.lines.create.discount":"Discount",
