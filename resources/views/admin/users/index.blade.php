@@ -1,5 +1,7 @@
+<!-- perintah dari blade.php artinya akan memanggil tamplet lain sesuai dengan yang dipanggil, koponen2 yang statis  -->
 @extends('admin.layouts.admin')
 
+<!-- berfungsi untuk mengisikan sebuah value ke dalam layout yaitu title -->
 @section('title', __('views.admin.users.index.title'))
 
 @section('content')
