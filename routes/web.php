@@ -76,6 +76,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::get('pruchase-order-lines/{id}/destroy', 'PurchaseOrderController@getPurchaseOrderLineDestroy')->name('purchase.order.lines.destroy');
     Route::post('purchase-order-line/create','PurchaseOrderController@postPurchaseOrderLineInsert')->name('purchase.order.lines.insert');
     Route::post('purchase-order-line/update','PurchaseOrderController@postPurchaseOrderLineUpdate')->name('purchase.order.lines.update');
+    
+    Route::get('reporting','DashboardController@getReportingPage')->name('reporting-page');
+    Route::get('reporting/all-data-product' , 'DashboardController@getAllDataProduct')->name('reporting.all.data.product');
+    Route::get('reporting/chart-product', 'DashboardController@getChartProduct')->name('reporting.chart.product');
+    
 });
 
 
